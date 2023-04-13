@@ -1,0 +1,439 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #0F0F0F;
+    height: 10vh;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+header .container div {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+}
+
+header a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #969696;
+    text-decoration: none;
+}
+
+.burgerMenu img {
+    width: 40px;
+}
+
+.burgerMenu {
+    display: none;
+}
+
+main {
+    background-image: url(./Rectangle\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.block {
+    border: 4px solid white;
+    width: 320px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.block p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    border-top: 2px solid white;
+    padding-top: 7px;
+    margin-top: 10px;
+}
+
+main>p {
+    width: 730px;
+    margin-top: 80px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.main {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.season2021 {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 80px;
+    align-items: center;
+}
+
+.clocks {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+section hr {
+    width: 120px;
+}
+
+.season {
+    background-color: #000000;
+    color: white;
+}
+
+.top,
+.bottom {
+    height: 70vh;
+    display: flex;
+}
+
+.new {
+    background-image: url(./images/Rectangle\ 8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.new hr {
+    margin: 2% 0;
+}
+
+.new button {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #96969649;
+    border: 1px solid #FFFFFF;
+    padding: 1% 2%;
+}
+
+.clock div {
+    background-color: #191B1C;
+    padding: 55px 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.clock img {
+    width: 90%;
+}
+
+.clock {
+    width: 30%;
+}
+
+.costume {
+    width: 45%;
+    background-image: url(./images/Rectangle\ 9.jpg);
+    height: 100%;
+}
+
+.collection18 {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.collection18 p {
+    margin: 10% 0;
+    width: 60%;
+    text-align: center;
+}
+
+.collection18 button {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #96969649;
+    border: 1px solid #FFFFFF;
+    padding: 1% 2%;
+}
+
+.theif {
+    background-color: #000000;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.theif h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 3% 0;
+}
+
+.theif hr {
+    width: 10%;
+    margin: 3% 0;
+}
+
+.muchcontainer {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 3%;
+}
+
+.much p {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.much {
+    margin: 0 1%;
+}
+
+.formini {
+    display: none;
+}
+
+.one p {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.much .clock {
+    width: fit-content;
+    height: fit-content;
+}
+
+.brends {
+    height: 40vh;
+    background-color: #0F0F0F;
+}
+
+.brends h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 2%;
+}
+
+.brendcon {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brends hr {
+    width: 10%;
+    margin: 2% 0;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+    .burgerMenu {
+        display: block;
+    }
+
+    header .container>div {
+        display: none;
+    }
+
+    main>p {
+        width: 90%;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .season2021 {
+        width: 100%;
+        /* height: 70vh; */
+        margin: 5% 0;
+    }
+
+    .new {
+        width: 100%;
+        height: 70vh;
+        background-position: left center;
+    }
+
+    .clocks {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .top,
+    .bottom {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .clock {
+        width: 100%;
+        margin: 5% 0;
+    }
+
+    .costume {
+        width: 100%;
+        background-image: url(./images/Rectangle\ 9.jpg);
+        background-position: center;
+        height: 70vh;
+        order: 2;
+    }
+
+    .collection18 {
+        width: 100%;
+        height: 70vh;
+        text-align: center;
+        order: 1;
+    }
+
+    .collection18 p {
+        width: 80%;
+    }
+
+    .muchcontainer {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 3%;
+    }
+
+    .much {
+        display: none;
+    }
+
+    .theif hr {
+        margin: 5% 0;
+    }
+
+    .clock {
+        width: fit-content;
+        margin: 0;
+    }
+
+    .one .clock img {
+        width: fit-content;
+    }
+
+    .one .clock p {
+        width: fit-content;
+    }
+
+    .one .clock {
+        width: fit-content;
+    }
+
+    .formini {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .formini img {
+        height: fit-content;
+    }
+
+    .brends {
+        height: fit-content;
+    }
+
+    .brendcon div {
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        align-items: center;
+    }
+
+    .brendcon div img {
+        /* width: 50%; */
+    }
+    
+}
